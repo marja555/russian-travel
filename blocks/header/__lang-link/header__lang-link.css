@@ -1,0 +1,10 @@
+.header__lang-link {
+  width: 29px;
+  height: 28px;
+  text-decoration: none;
+  
+}
+
+.header__lang-link:visited, .header__lang-link-en:active {
+  text-decoration: underline;
+}

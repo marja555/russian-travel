@@ -1,0 +1,8 @@
+.place {
+  display: grid;
+  margin: 92px auto 0;
+  width: 984px;
+  height: 660px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}

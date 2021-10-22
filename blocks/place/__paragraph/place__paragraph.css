@@ -1,0 +1,11 @@
+.place__paragraph {
+  margin: 0;
+  grid-column: 2/-1;
+  grid-row: 2/-1;
+  
+}
+
+.place__paragraph:last-of-type {
+  grid-column: 2/-1;
+  grid-row: -1/-2;
+}

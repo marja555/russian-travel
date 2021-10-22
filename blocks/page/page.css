@@ -1,0 +1,6 @@
+.page {
+  margin: 0 auto;
+  max-width: 1280px;
+  border: 1px solid red;
+  font-family: Inter;
+}

@@ -1,0 +1,6 @@
+.place__website {
+  grid-column: 2/-1;
+  grid-row: 1;
+  width: 456px;
+  height: 46px;
+}
