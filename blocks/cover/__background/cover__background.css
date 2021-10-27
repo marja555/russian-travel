@@ -1,7 +1,10 @@
 .cover__background {
-  background-image: url(../../../../images/cover-trains.jpg);
-  width: 100%;
+  background-image: url(../../../images/cover-trains.jpg);
+  max-width: 1184px;
+  height: 62.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   
-
   
 }

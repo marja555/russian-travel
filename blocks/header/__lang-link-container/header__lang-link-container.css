@@ -1,0 +1,19 @@
+.header__lang-link-container {
+  list-style-type: none;
+  margin: 18px 18px 6px 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  transition: opacity 1s linear .1s;
+}
+
+.header__lang-link-container:last-of-type {
+  margin-right: 0;
+}
+
+.header__lang-link-container:hover {
+  opacity: .4;
+}
