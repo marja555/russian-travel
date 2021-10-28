@@ -1,3 +1,5 @@
 .intro__list_weight {
-  font-weight: normal;
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
 }

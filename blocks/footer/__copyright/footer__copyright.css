@@ -7,6 +7,13 @@
   line-height: 1.14;
 }
 
+@media screen and (max-width: 642px) {
+  .footer__copyright {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 1;

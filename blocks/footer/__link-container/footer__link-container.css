@@ -10,6 +10,12 @@
   opacity: .6;
 }
 
+@media screen and (max-width: 642px) {
+  .footer__link-container {
+    padding-top: 22px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__link-container {
     padding-bottom: 32px;
