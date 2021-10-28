@@ -1,5 +1,5 @@
 .header {
-  width: 1184px;
+  max-width: 1184px;
   height: 52px;
   padding: 28px 48px 0;
   display: flex;
@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 928px;
+    max-width: calc(100% - 96px);
   } 
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 720px;
+    max-width: calc(100% - 48px);
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    width: 288px;
+    max-width: calc(100% - 32px);
     padding: 16px 16px 0;
     height: 42px;
   }

@@ -1,7 +1,9 @@
 .intro {
   max-width: 690px;
   margin-top: 92px;
-  margin-left: 148px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: minmax(min-content, fit-content(690px));
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +22,6 @@
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    margin: 64px 16px 0;
+    margin: 64px auto 0;
   }
 }

@@ -4,9 +4,16 @@
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__container {
-    width: 288px;
-    margin: auto;
+    row-gap: 25px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
