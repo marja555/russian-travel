@@ -23,6 +23,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place {
+    margin-left: 16px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .place {
     max-width: 720px;
@@ -31,10 +37,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 472px) {
   .place {
     max-width: 320px;
     grid-template-columns: 1fr;
-    gap: 32px;
+    row-gap: 32px;
+    margin: 0 auto;
   }
 }

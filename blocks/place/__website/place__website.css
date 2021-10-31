@@ -2,19 +2,24 @@
   grid-column: 2/-1;
   grid-row: 1;
   max-width: 456px;
-  min-height: 46px;
   display: grid;
   grid-template-rows: min-content min-content;
-  gap: 4px;
+  gap: 12px;
   align-self: end;
+}
+
+@media screen and (max-width: 472px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
-    grid-column: 1;
-    grid-row: 3;
-    max-width: 288px;
     margin-left: 16px;
-    margin-right: 16px;
   }
 }

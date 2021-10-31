@@ -30,5 +30,6 @@
     margin-top: 64px;
     grid-template-columns: 1fr;
     width: 288px;
+    gap: 12px;
   }
 }
