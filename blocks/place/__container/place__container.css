@@ -1,16 +1,10 @@
 .place__container {
-  display: grid;
-  row-gap: 26px;
-  grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+ 
 }
 
 @media screen and (max-width: 768px) {
   .place__container {
-    row-gap: 25px;
-  }
-
-  .place__container:last-child {
-    row-gap: 0;
+    
   }
 }
 

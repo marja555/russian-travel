@@ -20,20 +20,13 @@
 
 @media screen and (max-width: 600px) {
   .place__image {
-    width: 280px;
-    height: 280px;
-  }
-}
-
-@media screen and (max-width: 472px) {
-  .place__image {
     width: 320px;
     height: 216px;
     grid-row: 3;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .place__image {
     width: 100%;
     height: 100%;
