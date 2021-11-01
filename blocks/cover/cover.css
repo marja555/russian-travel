@@ -3,8 +3,9 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
+    max-width: 100%;
     margin-right: 0;
     margin-left: 0;
   }

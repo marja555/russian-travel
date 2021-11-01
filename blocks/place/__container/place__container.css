@@ -8,6 +8,10 @@
   .place__container {
     row-gap: 25px;
   }
+
+  .place__container:last-child {
+    row-gap: 0;
+  }
 }
 
 @media screen and (max-width: 472px) {

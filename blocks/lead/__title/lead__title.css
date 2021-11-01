@@ -8,10 +8,24 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1270px) {
+  .lead__title {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .lead__title {
     margin-left: 104px;
     margin-right: 104px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .lead__title {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 

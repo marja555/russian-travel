@@ -4,21 +4,20 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  padding-top: 245px;
-  margin: 0 auto;
-  max-width: 560px;
+  padding: 245px 312px 0;
+  margin: 0;
   position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__title {
-    padding-top: 195px;
+    padding: 195px 232px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .cover__title {
-    padding-top: 115px;
+    padding: 115px 104px 0;
   }
 }
 
@@ -41,6 +40,5 @@
     font-size: 32px;
     line-height: 1.09;
     padding-top: 33px;
-    max-width: 288px;
   }
 }
