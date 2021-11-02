@@ -1,25 +1,5 @@
 .place__website {
-  grid-column: 2/-1;
-  grid-row: 1;
-  max-width: 456px;
-  display: grid;
-  grid-template-rows: min-content min-content;
-  gap: 12px;
+  justify-self: start;
   align-self: end;
-}
-
-@media screen and (max-width: 600px) {
-  .place__website {
-    grid-column: 1;
-    grid-row: 2;
-    max-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website {
-    margin-left: 16px;
-  }
+  padding-left: 16px;
 }

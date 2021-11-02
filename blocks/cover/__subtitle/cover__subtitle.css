@@ -4,42 +4,23 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
-  margin: 32px 412px 0;
+  margin: 32px auto 0;
   position: relative;
+  max-width: 360px;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover__subtitle {
-    margin-left: 332px;
-    margin-right: 332px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .cover__subtitle {
-    margin-left: 204px;
-    margin-right: 204px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__subtitle {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
 @media screen and (max-width: 550px) {
   .cover__subtitle {
+    max-width: 300px;
     font-size: 16px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .cover__subtitle {
+    max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
-    margin: 16px 16px 0;
+    margin-top: 16px;
   }
 }
