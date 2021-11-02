@@ -1,24 +1,39 @@
 .intro {
-  margin: 92px 442px 0 148px;
+  max-width: 984px;
+  margin: 92px auto 0;
   display: grid;
   grid-template-columns: minmax(min-content, fit-content(690px));
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: 48px;
-    margin-right: 286px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 88px 24px 0;
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 64px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    margin: 64px 16px 0;
+    max-width: 288px;
   }
 }

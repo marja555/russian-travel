@@ -29,9 +29,24 @@
 
 @media screen and (max-width: 600px) {
   .place {
+    max-width: 90%;
+    grid-template-columns: 320px 1fr;
+    column-gap: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: px) {
+  .place {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     row-gap: 32px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 100%;
   }
 }
