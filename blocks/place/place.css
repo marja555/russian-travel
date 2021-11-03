@@ -39,3 +39,9 @@
     max-width: 320px;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .place {
+    max-width: 340px;
+  }
+}
